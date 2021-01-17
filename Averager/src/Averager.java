@@ -22,8 +22,13 @@ public class Averager {
 		System.out.println("The third integer you entered is: "+ thirdInt);
 		System.out.println();
 		
-		double average = (firstInt + secondInt + thirdInt) / 3.0;
-		System.out.printf("The average of the three integers is %.2f", average); // formats to two decimals
+		System.out.print("Please enter the fourth integer: ");
+		int fourthInt = kbInput.nextInt();
+		System.out.println("The fourth integer you entered is: "+ fourthInt);
+		System.out.println();
+		
+		double average = (firstInt + secondInt + thirdInt + fourthInt) / 4.0;
+		System.out.printf("The average of the four integers is %.2f", average); // formats to two decimals
 		System.out.println();
 		
 		
